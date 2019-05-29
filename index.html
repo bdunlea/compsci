@@ -3,13 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Home Alone</title>
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
   </head>
-  <body bgcolor="#DAF7A6">
-    <a href="index.html">Home at Last</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="aboutme.html">About Me</a>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home At Last<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutme.html">About Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+	<div class="text-center">
     <h1>This is Mr. Dunlea's Home Page!</h1>
-    <img src="images/BunleaHome.JPG" height="500">
+    <img src="images/BunleaHome.JPG" height="500" class="rounded">
   <br>
     <h1>Jeopardy!</h1>
   <audio controls>
@@ -25,5 +44,6 @@
   <audio controls autoplay loop> 
     <source src="sounds/Mission Impossible.mp3" type="audio/mpeg">
   </audio>
+  </div>
   </body>
 </html>
